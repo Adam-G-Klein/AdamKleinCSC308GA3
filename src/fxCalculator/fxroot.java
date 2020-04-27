@@ -197,11 +197,11 @@ public class fxroot extends Application{
 					return;
 				}
 				if(Double.parseDouble(num2txt.getText()) <= 0){
-					errText.setText("y must be greater than 0!");
+					errText.setText("y must be greater than 0");
 					return;
 				}
 				if(Double.parseDouble(num1txt.getText()) <= 1){
-					errText.setText("x must be greater than 1!");
+					errText.setText("x must be greater than 1");
 					return;
 				}
 				realAns = Double.toString(
