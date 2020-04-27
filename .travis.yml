@@ -3,7 +3,7 @@ jdk:
     - openjdk8
 addons:
     sonarcloud:
-        organization: Adam-G-Klein
+        organization: adam-g-klein-github
         token: f67322dbd8726b888885f47100912345ac2ec7fb
 script:
 - ant build
